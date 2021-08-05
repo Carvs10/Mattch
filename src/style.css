@@ -1,0 +1,75 @@
+body { 
+    background:url("ground.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: dimgray;
+    
+  
+}
+
+.container{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+img{
+    opacity: 0.9;
+}
+
+h1{
+
+    font-family: 'Bungee Outline', cursive;
+    color: #FFFF; 
+    margin: auto;
+    opacity: 1;
+    font-size: 100px;
+}
+
+
+input{
+    margin: auto;
+    height: 65px;
+    width: 560;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #FD7101;
+    background-color: #E5E5E5;
+    opacity: 0.8;
+    color: transparent;
+    border-color: #FD7101;
+    
+}
+
+button{
+    padding: 0 20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+    color: #FFFF;
+    background-color: #FD7101;
+    cursor: pointer;
+    width: 155px;
+    height: 65px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    opacity: 0.8;;
+}
+
+a{
+    margin: auto;
+    margin-bottom: 15px;
+    color: #FD7101;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0 20px;
+    font-size: larger;
+    
+}
