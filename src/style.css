@@ -5,7 +5,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-color: dimgray;
-    
+
   
 }
 
@@ -31,6 +31,20 @@ h1{
     font-size: 100px;
 }
 
+h2{
+
+    color: #E5E5E5;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h3{
+    justify-content:flex-start;
+    margin-left: 80px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: xx-large;
+
+}
+
 
 input{
     margin: auto;
@@ -41,10 +55,8 @@ input{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    color: #FD7101;
     background-color: #E5E5E5;
     opacity: 0.8;
-    color: transparent;
     border-color: #FD7101;
     
 }
@@ -72,4 +84,31 @@ a{
     padding: 0 20px;
     font-size: larger;
     
+}
+
+.register_page{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#welcome{
+    margin-top: 75px;
+    margin-left: 80px;
+    font-size: xx-large;
+}
+
+#yes_btn{
+
+    flex-direction: row;
+}
+#not_btn{
+    background-color: transparent;
+   margin-top: 15px;
+}
+
+#page{
+
+    margin-left: 85px;
+    margin-top: 230px;
 }
