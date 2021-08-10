@@ -6,3 +6,7 @@ function myFunction() {
 function backHome(){
     location.href  = "index.html";
 }
+
+function goTrial(){
+    location.href = "trial.html"
+}
