@@ -4,9 +4,9 @@ function myFunction() {
 }
 
 function backHome(){
-    location.href  = "index.html";
+    location.href  = "home.html";
 }
 
 function goTrial(){
-    location.href = "trial.html"
+    location.href = "trial.html";
 }
